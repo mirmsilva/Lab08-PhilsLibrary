@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library.Interfaces
 {
-    public interface ILibrary : IReadOnlyCollection<Book>
+    public interface ILibrary : IReadOnlyCollection <Book>
     {
         /// <summary>
         /// Add a Book to the library.
