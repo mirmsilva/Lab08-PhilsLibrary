@@ -8,24 +8,28 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kyleketcham\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\joelc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\joelc\\Source\\Repos\\Lab08-PhilsLibrary\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\kyleketcham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\obj\\",
+      "projectPath": "C:\\Users\\joelc\\Source\\Repos\\Lab08-PhilsLibrary\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\joelc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joelc\\Source\\Repos\\Lab08-PhilsLibrary\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\kyleketcham\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\joelc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -64,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
