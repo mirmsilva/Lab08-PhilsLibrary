@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library.Classes
 {
-    class Backpack <T>
+    class Backpack<T>
     {
     }
 }
