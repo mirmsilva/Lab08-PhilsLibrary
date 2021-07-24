@@ -14,9 +14,13 @@ namespace Library.Classes
         //create dictionary <key, value>
         //add the using statement
         //this is supposed to be private
-        private Dictionary<string, Book> bookList = new Dictionary<string, Book>();
+        private Dictionary<string, Book> BookList = new Dictionary<string, Book>();
 
-        public int Count => throw new NotImplementedException();
+        //set the book count to zero
+        public int Count = 0;
+
+        //why is this here? I DON'T KNOW!
+        int IReadOnlyCollection<Book>.Count => throw new NotImplementedException();
 
         public void Add(string title, string firstName, string lastName, int numberOfPages)
         {
@@ -26,37 +30,43 @@ namespace Library.Classes
             name.LastName = lastName;
             
             //create the Book Object
-            Book book1 = new Book
+            Book book = new Book
             {
                 Title = title,
                 Author = name,
                 Pages = numberOfPages,
 
             };
-            bookList.Add(book1.Title, book1);
+            BookList.Add(book.Title, book);
         }
         public Book Borrow(string title)
         {
-            throw new NotImplementedException();
+            Book borrowedBook = BookList.GetValueOrDefault(title);
+            BookList.Remove(title);
+            //the book count should go down
+            Count--;
+            Console.WriteLine($"You borrow the book {title}");
+            return borrowedBook;
         }
 
         public IEnumerator<Book> GetEnumerator()
         {
-            throw new NotImplementedException();
+            foreach( Book book in BookList.Values)
+            {
+                yield return book; 
+            }
         }
 
         public void Return(Book book)
         {
-            throw new NotImplementedException();
+            BookList.Add(book.Title, book);
+            Count++;
         }
 
+        //This is from John. He stated it should always look like this
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return GetEnumerator();
         }
-
-
-       
-       
     }
 }

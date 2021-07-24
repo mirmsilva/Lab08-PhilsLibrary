@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kyleketcham\\Source\\Repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj": {}
+    "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kyleketcham\\Source\\Repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj": {
+    "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kyleketcham\\Source\\Repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\kyleketcham\\Source\\Repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\kyleketcham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kyleketcham\\Source\\Repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\obj\\",
+        "outputPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\Lab08-PhilsLibrary\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

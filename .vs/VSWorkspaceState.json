@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Library",
+    "\\Library\\Classes",
+    "\\Library\\Interfaces"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Library\\obj",
   "PreviewInSolutionExplorer": false
 }
